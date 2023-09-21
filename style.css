@@ -1,0 +1,52 @@
+.sceer{
+    background: url(wt.jpg) no-repeat;
+    /* background:linear-gradient(to right, red, yellow) no-repeat; */
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+.hedding{
+    background: linear-gradient(rgb(37, 37, 230),rgb(137, 194, 234), rgb(188, 89, 237));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 50px;
+}
+h2{
+    margin: 0;
+}
+.container{
+    text-align: center;
+    margin: 5% 0;
+}
+.converter{
+    font-size: 170%;
+    font-weight: bold;
+}
+input{
+    margin: 3% 0 1% 0;
+    padding: 0.5%;
+    font-size: 100%;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: linear-gradient(45deg, rgb(216, 195, 232), violet, white);
+}
+
+button{
+    padding: 1% 5%;
+    margin: 1% 1%;
+    border-radius: 10px;
+    background: linear-gradient(rgb(0, 255, 255), rgb(44, 105, 220));
+    cursor: pointer;
+}
+.result{
+    font-size: 170%;
+    color: rgb(192, 5, 45);
+    font-weight: bold;
+    margin: 2%;
+
+}
+button:hover{
+    background: transparent;
+}
